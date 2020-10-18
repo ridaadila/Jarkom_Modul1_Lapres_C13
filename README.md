@@ -1,17 +1,17 @@
 # Jarkom_Modul1_Lapres_C13
 
-###LAPRES PRATIKUM MODUL 1 JARKOM
+### LAPRES PRATIKUM MODUL 1 JARKOM
 
-#####KELOMPOK C13 : 
-######1) Rida Adila  05111840000002
-######2) Bayu Surya B 051111840000114
+##### KELOMPOK C13 : 
+###### 1) Rida Adila  05111840000002
+###### 2) Bayu Surya B 051111840000114
 *********
 
 ##### A) DISPLAY FILTER
 ####
 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 ####
-######JAWAB :
+###### JAWAB :
 Syntaxnya adalah :
 
 ![1 1](https://user-images.githubusercontent.com/71973415/96349155-eb805000-10d7-11eb-9d70-93cea4cd991c.png)
@@ -25,7 +25,7 @@ Sehingga web servernya ialah : nginx/1.14.0 (Ubuntu)
 ##
 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 ####
-######JAWAB :
+###### JAWAB :
 Klik menu file - export objects - http pada wireshark . Lalu ketikkan nama file yang akan mau di export. 
 
 ![2 1](https://user-images.githubusercontent.com/71973415/96349263-aad50680-10d8-11eb-9a23-cfd5ab99fb2b.png)
@@ -36,7 +36,7 @@ Lalu simpan file tersebut, sehingga hasil fotonya akan tampak sebagai berikut :
 ##
 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
 ####
-######JAWAB :
+###### JAWAB :
 Syntax nya adalah sebagai berikut :
 
 ![3 1](https://user-images.githubusercontent.com/71973415/96349359-57af8380-10d9-11eb-8162-71a4e418163b.png)
@@ -53,7 +53,7 @@ Didapatkan usernamnya adalaha 10pemuda, dan passwordnya adalah guncangdunia
 ##
 4. Temukan paket dari web-web yang menggunakan basic authentication method!
 ####
-######JAWAB :
+###### JAWAB :
 Syntaxnya adalah sebagai berikut :
 
 ![4 1](https://user-images.githubusercontent.com/71973415/96349461-123f8600-10da-11eb-95f6-63ac94227236.png)
@@ -64,7 +64,7 @@ Hasil paket-paketnya adalah :
 ##
 5. Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 ####
-######JAWAB :
+###### JAWAB :
 Syntaxnya adalah :
 
 ![5 1](https://user-images.githubusercontent.com/71973415/96349512-706c6900-10da-11eb-8806-9b45f8835b7e.png)
@@ -88,7 +88,7 @@ Sehingga akan muncul pertanyaan yang harus dijawab :
 ##
 6. Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
 ####
-######JAWAB :
+###### JAWAB :
 Untuk syntax filter dan hasil paketnya adalah :
 
 ![6 1](https://user-images.githubusercontent.com/71973415/96356979-c7486180-111f-11eb-9a2c-74c4f4f72323.png)
@@ -111,7 +111,7 @@ Lalu password tsb digunakan untuk membuka file "Open this.pdf" pada file "Answer
 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
 Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 ####
-######JAWAB :
+###### JAWAB :
 Untuk syntax filternya adalah sebagai berikut :
 
 ![7 1](https://user-images.githubusercontent.com/71973415/96357148-142d3780-1122-11eb-801c-5c4033a13e72.png)
@@ -126,7 +126,7 @@ Setelah itu simpan filenya, dan akan nampak hasilnya seperti ini :
 ##
 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 ####
-######JAWAB :
+###### JAWAB :
 Pertama dicari dulu ftp dengan "microsoft" :
 
 ![8 1](https://user-images.githubusercontent.com/71973415/96357196-e4326400-1122-11eb-95b6-e2cf9ac428bd.png)
@@ -142,7 +142,7 @@ Setelah itu, hasil nya akan  muncul seperti ini :
 ##
 9. Cari username dan password ketika login FTP pada localhost!
 ####
-######JAWAB :
+###### JAWAB :
 Syntax untuk mendapatkan pass pada localhost :
 
 ![9 1](https://user-images.githubusercontent.com/71973415/96357376-47bd9100-1125-11eb-884b-de5b0b48ea8d.png)
@@ -152,7 +152,7 @@ Ditemukan hasil passnya adalah dhana123
 10. Cari file .pdf di wireshark lalu download dan buka file tersebut!
 clue: "25 50 44 46" 
 ####
-######JAWAB :
+###### JAWAB :
 Mencari file pdf di wireshark, syntaxnya adalah :
 
 ![10 1](https://user-images.githubusercontent.com/71973415/96357436-ff52a300-1125-11eb-9fae-1b2caa73fa75.png)
@@ -176,28 +176,28 @@ Lalu simpan filenya, untuk show and save data as nya diubah dulu menjadi "Raw". 
 ####
 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 ####
-######JAWAB :
+###### JAWAB :
 Syntax filternya adalah : port 21
 
 ![11 1](https://user-images.githubusercontent.com/71973415/96357503-134ad480-1127-11eb-8e59-416cc2921c85.jpg)
 ##
 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 ####
-######JAWAB :
+###### JAWAB :
 Syntax filternya adalah : src port 80
 
 ![12 1](https://user-images.githubusercontent.com/71973415/96357604-4a6db580-1128-11eb-8266-50f6eb5c2366.jpg)
 ##
 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 ####
-######JAWAB :
+###### JAWAB :
 Syntax filternya :  dst port 443
 
 ![13 1](https://user-images.githubusercontent.com/71973415/96357612-7db04480-1128-11eb-864d-be6b6d0544bd.jpg)
 ##
 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 ####
-######JAWAB :
+###### JAWAB :
 Syntax filter : host *ip sendiri
 
 ![14 1](https://user-images.githubusercontent.com/71973415/96357688-4c844400-1129-11eb-833b-eed485fdc122.png)
@@ -206,7 +206,7 @@ Syntax filter : host *ip sendiri
 ##
 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 ####
-######JAWAB :
+###### JAWAB :
 
 Syntax filter : dst *ip monta
 
